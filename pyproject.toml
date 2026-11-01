@@ -1,0 +1,8 @@
+[project]
+name = "quickbite-coo-dashboard"
+version = "1.0.0"
+description = "QuickBite COO refund-spike dashboard on QUICKBITE_DB"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit[snowflake]>=1.56.0",
+]
